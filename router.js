@@ -1,7 +1,6 @@
 const Router = require('koa-router');
 const router = new Router();
 
-
 router.get('/request', async (ctx) => {
 	const url = ctx.query.url;
 	const getPage = await require('./utils/puppeteer');
