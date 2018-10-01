@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer_as_service",
+  "version": "1.0.0",
+  "description": "puppeteer as service",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freemagico/puppeteer_as_service.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Freemagico/puppeteer_as_service/issues"
+  },
+  "homepage": "https://github.com/Freemagico/puppeteer_as_service#readme",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0",
+    "puppeteer": "^1.8.0"
+  }
+}
